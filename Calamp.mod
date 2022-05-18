@@ -28,9 +28,11 @@ ASSIGNED {
 }
 
 VERBATIM
+#ifndef NRN_VERSION_GTEQ_8_2_0
 extern void vector_resize();
 extern double* vector_vec();
 extern void* vector_arg();
+#endif
 ENDVERBATIM
 
 INITIAL {
@@ -88,7 +90,6 @@ ENDVERBATIM
 
 PROCEDURE record() {
 VERBATIM
-	extern void* vector_arg();
 	void** vv;
 	vv = (void**)(&space);
 	*vv = (void*)0;
