@@ -456,7 +456,7 @@ proc load_3dcell() {
 		nseg = int((L/(0.1*lambda_f(100))+.9)/2)*2 + 1  
 		totcomp=totcomp+nseg
 	}
-	// resegmentalize the oblique branch where the  synapse is incorporated such that each segment is approx 1 µm long
+	// resegmentalize the oblique branch where the  synapse is incorporated such that each segment is approx 1 Âµm long
 	// Also see METHODS in the paper for detail.
 	apical[112]{
 		nseg= 297
@@ -469,7 +469,7 @@ proc load_3dcell() {
 
 	init_cell()
 
-//print "Printing distancesÉ."
+//print "Printing distances."
 
 	forsec Trunk {
 		for(x) {
