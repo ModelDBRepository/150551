@@ -1,4 +1,4 @@
-# Quantitative interactions between the A-type K⁺ current and inositol trisphosphate receptors regulate intraneuronal Ca²⁺ waves and synaptic plasticity
+## Quantitative interactions between the A-type K⁺ current and inositol trisphosphate receptors regulate intraneuronal Ca²⁺ waves and synaptic plasticity
 
 This is an implementation of the following paper:  
 Ashhad S and Narayanan R. Quantitative interactions between the A-type K⁺ current and inositol trisphosphate receptors regulate intraneuronal Ca²⁺ waves and synaptic plasticity. *J Physiology* April 2013, Volume 591, Issue 7, pages 1645-1669,  
@@ -25,6 +25,4 @@ Clicking on `Fig6C-F.hoc` will run the simulation for the figures 6C-F in the pa
 
 20220523 Updated MOD files to contain valid C++ and be compatible with the upcoming versions 8.2 and 9.0 of NEURON.
 
----
-
-2025-07-09: Converted README to Markdown.
+20250709 Converted README to Markdown.
