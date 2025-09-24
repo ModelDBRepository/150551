@@ -6,7 +6,7 @@ NEURON {
 	USEION ca READ cao, ica WRITE cai, ica
 	USEION ip3 READ ip3i VALENCE 1
 	RANGE ica_pmp,ca1, ca2,alpha,beta,ca3,gamma,ip3ca, DCa,jip3
- 	GLOBAL vrat, TBufs, KDs, TBufs, TBufm, KDm
+ 	GLOBAL vrat, TBufs, KDs, TBufm, KDm
 }
 
 DEFINE Nannuli 4
